@@ -10,7 +10,6 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
-design
 *.local
 
 # Editor directories and files
@@ -23,3 +22,7 @@ design
 *.njsproj
 *.sln
 *.sw?
+
+# Ignore design folder
+/design/
+
