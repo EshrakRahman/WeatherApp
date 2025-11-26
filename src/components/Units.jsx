@@ -4,17 +4,15 @@ import { useState } from "react";
 
 export default function Units() {
   const [dropDown, setDropDown] = useState(false);
+  const units = "celsius";
 
   function handleDropDown() {}
 
   return (
     <div className="units h-[33px] px-2.5 py-2 bg-neutral-800 rounded-md flex justify-between items-center gap-1.5">
       <img src={settingsIcon} alt="Settings icon" />
-      <span
-        className="font-dmsans font-medium text-sm  text-neutral-0 "
-        onClick={handleDropDown}
-      >
-        Units
+      <span className="font-dmsans font-medium text-sm text-neutral-0">
+        {units === "celsius" ? "°C" : "°F"}
       </span>
       <img src={dropDownIcon} alt="Drop Down icon" />
     </div>

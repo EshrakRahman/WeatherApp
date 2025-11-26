@@ -11,7 +11,7 @@ export default function App() {
         <Header />
         <HeaderTitle />
         <Search />
-        <div className="lg:flex lg:justify-center lg:gap-3">
+        <div className="lg:flex lg:justify-center items-start lg:gap-3">
           <div className="lg:flex">
             <CurrentWeather />
           </div>

@@ -4,8 +4,8 @@ export default function CurrentWeatherCards({ title, value }) {
       <p className="title text-neutral-200 font-dmsans text-[18px] font-medium  ">
         {title}
       </p>
-      <p className="text-neutral-0 text-[32px] font-light font-dmsans ">
-        {value}&deg;
+      <p className="text-neutral-0 text-3xl  font-light font-dmsans ">
+        {value}
       </p>
     </div>
   );
