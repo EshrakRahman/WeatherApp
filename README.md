@@ -39,9 +39,9 @@ Users should be able to:
 ### Screenshot
 
 ![](./screenshot.jpg)
-_Desktop`/src/assets/screenshoots/desktop.png`_
-_Tablet`/src/assets/screenshoots/tablet.png`_
-_Mobile`/src/assets/screenshoots/mobile.png`_
+_Desktop`./src/assets/screenshoots/desktop.png`_
+_Tablet`./src/assets/screenshoots/tablet.png`_
+_Mobile`./src/assets/screenshoots/mobile.png`_
 
 ### Links
 
